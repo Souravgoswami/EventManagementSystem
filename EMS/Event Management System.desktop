@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Event Management System
+Comment=An event management system app that works
+Exec=/bin/sh run.sh
+Icon=addressbook
+Path=
+Terminal=false
+StartupNotify=false
