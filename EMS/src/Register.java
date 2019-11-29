@@ -356,7 +356,7 @@ public class Register extends JFrame implements ActionListener {
 				String ev = event.getSelectedItem().toString() ;
 
 				Pattern pswd = Pattern.compile("((?=.*[0-9])(?=.*[a-zA-Z]).{6,})") ;
-				Pattern eml = Pattern.compile(".*@.+\\..*") ;
+				Pattern eml = Pattern.compile(".*@.+\\..+") ;
 				Pattern cnt = Pattern.compile("[^0-9\\+]") ;
 
 				if (!submittable) {
